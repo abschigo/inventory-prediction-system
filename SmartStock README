@@ -1,0 +1,69 @@
+# SmartStock – Inventory Prediction System
+
+An intelligent inventory management and demand forecasting automation system built with n8n.
+
+## Project Overview
+
+SmartStock is an AI-powered inventory prediction system designed to help businesses monitor stock levels, forecast product demand, identify potential stock shortages, and automate inventory alerts.
+
+The system analyses inventory records and historical sales data to help businesses make better purchasing and stock management decisions.
+
+## Key Features
+
+- Automated inventory monitoring.
+- Historical sales analysis.
+- 7-day and 30-day demand forecasting.
+- Stock shortage prediction.
+- Automated reorder point calculation.
+- Reorder quantity recommendations.
+- Estimated restocking cost.
+- Days-of-stock-remaining calculation.
+- Automated Gmail inventory alerts.
+- Error handling and failure notifications.
+
+## Technology Stack
+
+- n8n – Workflow automation.
+- Google Sheets – Inventory and sales database.
+- Gmail – Automated inventory notifications.
+- JavaScript – Forecasting calculations and business logic.
+
+## Database Structure
+
+The system uses Google Sheets with three main worksheets:
+
+1. Inventory – Product details and available stock.
+2. Sales – Historical product sales records.
+3. Predictions – Forecast results and restocking recommendations.
+
+## How It Works
+
+1. The workflow runs automatically on a scheduled basis.
+2. It retrieves inventory records from Google Sheets.
+3. It analyses historical sales information.
+4. It calculates estimated product demand.
+5. It determines reorder points and recommended quantities.
+6. It identifies products that require restocking.
+7. It sends inventory alerts through Gmail.
+8. It saves prediction results for future reference.
+
+## Error Handling
+
+A separate SmartStock Error Handler workflow monitors workflow failures and sends automated error notifications through Gmail.
+
+## Business Benefits
+
+- Reduces unexpected stockouts.
+- Improves inventory planning.
+- Supports better purchasing decisions.
+- Reduces manual inventory monitoring.
+- Helps businesses manage stock more efficiently.
+
+## Project Status
+
+Built with n8n and currently designed for automated inventory monitoring, demand forecasting, and stock replenishment recommendations.
+
+## Developer
+
+Abel Lucky Chigozie  
+AI Automation Specialist
